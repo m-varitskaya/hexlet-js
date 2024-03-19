@@ -1,4 +1,5 @@
-{ "name": "installednpm",
+{
+  "name": "installednpm",
   "version": "1.0.0",
   "type": "module",
   "description": "",
@@ -10,5 +11,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5"
+  }
 }
